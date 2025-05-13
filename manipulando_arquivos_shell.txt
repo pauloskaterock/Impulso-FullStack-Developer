@@ -1,0 +1,87 @@
+📂 Manipulação de Diretórios
+cd → Mudar de diretório (cd /home/user/docs)
+
+mkdir → Criar um novo diretório (mkdir projeto)
+
+rmdir → Remover diretório vazio (rmdir old_folder)
+
+📜 Gerenciamento de Arquivos
+ls → Listar arquivos (ls -la para detalhes)
+
+touch → Criar ou atualizar um arquivo (touch novo.txt)
+
+cat → Visualizar o conteúdo (cat texto.txt)
+
+mv → Mover ou renomear (mv antigo.txt novo.txt)
+
+cp → Copiar arquivos (cp arquivo.txt backup/)
+
+rm → Remover arquivos (rm arquivo.txt)
+
+🔎 Busca e Comparação
+find → Procurar arquivos (find . -name "documento.txt")
+
+diff → Comparar diferenças entre arquivos (diff arquivo1.txt arquivo2.txt)
+
+🖥️ Variáveis de Ambiente
+env → Exibir variáveis do sistema (env | grep PATH)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CD: cd /home/usuario/documentos
+
+# Exemplo: Navegar até a pasta de documentos do usuário.
+
+LS: ls -l
+# Exemplo: Listar arquivos e pastas com detalhes (permissões, tamanho, data).
+
+TOUCH: touch novo_arquivo.txt
+# Exemplo: Criar um novo arquivo vazio chamado novo_arquivo.txt.
+
+CAT: cat novo_arquivo.txt
+# Exemplo: Exibir o conteúdo do arquivo novo_arquivo.txt.
+
+MV: mv arquivo.txt /tmp/
+# Exemplo: Mover o arquivo.txt para a pasta /tmp/.
+
+CP: cp arquivo.txt copia.txt
+# Exemplo: Copiar arquivo.txt para copia.txt.
+
+MKDIR: mkdir nova_pasta
+# Exemplo: Criar uma nova pasta chamada nova_pasta.
+
+FIND: find . -name "*.txt"
+# Exemplo: Procurar todos os arquivos .txt na pasta atual e subpastas.
+
+RM: rm arquivo.txt
+# Exemplo: Remover (deletar) o arquivo.txt.
+
+DIFF: diff arquivo1.txt arquivo2.txt
+# Exemplo: Comparar as diferenças entre arquivo1.txt e arquivo2.txt.
+
+RMDIR: rmdir pasta_vazia
+# Exemplo: Remover a pasta chamada pasta_vazia (deve estar vazia).
+
+ENV: export VARIAVEL=valor
+# Exemplo: Definir uma variável de ambiente chamada VARIAVEL com valor "valor".
+
+
